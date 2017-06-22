@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  background-color: #dadae2;
+  background: linear-gradient(#dadae2, white);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+}
+
+canvas {
+  border: Solid 2px rgba(44,44,55,0.9); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#museum { margin-top: 35px; }
+
+h1 {
+  padding-top: 25px;
+  display: none;
+}
