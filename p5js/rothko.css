@@ -1,5 +1,4 @@
 html, body {
-  height: 100%;
   background-color: #dadae2;
   background: linear-gradient(#dadae2, white);
 }
@@ -20,4 +19,22 @@ canvas {
 h1 {
   padding-top: 25px;
   display: none;
+}
+
+p.small {
+  font-style: italic;
+  font-size: smaller;
+}
+
+p.small a {
+  text-decoration: none;
+  color: #559;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  width: 90%;
+  margin: 0 auto;
 }

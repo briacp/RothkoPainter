@@ -6,9 +6,15 @@ function setup() {
     background(randomColor());
     noLoop();
 
+    document.getElementById('save-btn').onclick = function () {
+        saveCanvas('roborothko.png');
+    };
+
+
     var painting = randomPainting();
     painting.draw();
     document.getElementById('title').innerHTML = painting.getTitle();
+
 }
 
 function randomColor() {
@@ -28,4 +34,5 @@ function randomPainting() {
     }
 
     return painting;
-}
+}
+
